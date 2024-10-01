@@ -30,8 +30,8 @@ pip install numpy pydub
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/audio-noise-generator.git
-   cd audio-noise-generator
+   git clone https://github.com/shukdevtroy/Audio-Noise-Generator.git
+   cd Audio-Noise-Generator
    ```
 
 2. Make sure you have FFmpeg installed. You can download it from [FFmpeg's official website](https://ffmpeg.org/download.html) and follow the installation instructions.
@@ -39,7 +39,7 @@ pip install numpy pydub
 3. Run the application:
 
    ```bash
-   python audio_noise_generator.py
+   python app.py
    ```
 
 ## Usage
