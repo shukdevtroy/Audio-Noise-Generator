@@ -72,7 +72,7 @@ def create_noisy_audio(noise_type):
 
 def browse_file():
     """Open a file dialog to select multiple audio files."""    
-    filenames = filedialog.askopenfilenames(filetypes=[("Audio Files", "*.wav;*.mp3")])
+    filenames = filedialog.askopenfilenames(filetypes=[("Audio Files", "*.wav")])
     if filenames:
         audio_file_paths.set(';'.join(filenames))  # Store paths as a single string separated by semicolons
 
